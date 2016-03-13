@@ -1,0 +1,44 @@
+{
+  "name": "branchIO",
+  "version": "1.0.0",
+  "main": "backend",
+  "description": "Plugin for adding branchIO to backend",
+  "author": "Robins Gupta",
+  "authorEmail": "robinskumar73@gmail.com",
+  "routeExposure": "/branchIO",
+  "staticFiles": {
+    "css": {
+        "exampleCss" : "/branchIO/style/example.css"
+      },
+    "js": {
+      "branchIORoute": "/branchIO/scripts/routes/branchIO.js",
+      "branchIOController": "/branchIO/scripts/controllers/branchIO.js"
+    },
+    "moduleDependencies":{
+
+    },
+    "settings": "/branchIO/settings.js"
+  },
+  "bodystructure": {
+    "asidebarHook": [],
+    "sidebarHook": [],
+    "headerHook": [],
+    "footerHook":[]
+  },
+  "databases": {
+  },
+  "pluginDepedencies": {
+     
+  },
+  "activate": true,
+  "services": {},
+  "dependencies": {},
+  "optionalDependencies": {},
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "devDependencies": {
+
+  }
+}
